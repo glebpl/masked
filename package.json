@@ -1,0 +1,11 @@
+{
+  "name": "masked",
+  "version": "1.0.0",
+  "description": "Small pure js plugin for masked input",
+  "main": "masked.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glebpl/masked"
+  },
+  "author": "Gleb Plakhotnik"
+}
