@@ -24,7 +24,6 @@
 
     var defaults = {
         clearIfNotMatch: false
-        , onChange: function() {}
         , onInput: function() {}
         , translation: {
             '0': {pattern: /\d/}
@@ -32,6 +31,7 @@
             , '#': {pattern: /\d/, recursive: true}
             , 'A': {pattern: /[a-zA-Z0-9]/}
             , 'S': {pattern: /[a-zA-Z]/}
+            , 'H': {pattern: /[0-9a-fA-F]/}// hex
         }
     };
 
@@ -458,6 +458,7 @@
     };
 
     Masked.MASK_IPV4 = '099.099.099.099';
+    Masked.MASK_MAC = 'HH:HH:HH:HH:HH:HH';
     Masked.MASK_TIME = '00:00:00';
 
     return Masked;

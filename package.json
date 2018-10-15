@@ -1,6 +1,6 @@
 {
   "name": "masked",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Small pure js plugin for masked input",
   "main": "masked.js",
   "repository": {
