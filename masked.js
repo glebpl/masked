@@ -457,6 +457,9 @@
         return caretPosNew;
     };
 
+    Masked.MASK_IPV4 = '099.099.099.099';
+    Masked.MASK_TIME = '00:00:00';
+
     return Masked;
 
 });
